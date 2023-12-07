@@ -1,0 +1,28 @@
+.search-container {
+	padding: 1.75rem;
+	background-color: #1c1c1c;
+	color: #fff;
+
+	.search {
+		border-radius: 50px;
+		background-color: #353535;
+		padding: 0.25rem 1rem;
+		display: flex;
+		align-items: center;
+
+		i {
+			font-size: 1.75rem;
+		}
+
+		input {
+			outline: none;
+			background: transparent;
+			border: none;
+			height: 40px;
+			width: 100%;
+			margin: 0 1rem;
+			font-size: 38px;
+			color: #fff;
+		}
+	}
+}
