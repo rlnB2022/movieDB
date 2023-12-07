@@ -18,7 +18,7 @@ const useFetch = (url) => {
 		setLoading(true);
 		fetch(url, options)
 			.then((response) => response.json())
-			.then((response) => setData(response.results))
+			.then((response) => setData(response))
 			.catch((err) => setError(err.message))
 			.finally(() => {
 				setLoading(false);

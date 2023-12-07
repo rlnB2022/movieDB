@@ -6,7 +6,8 @@
 	color: #fff;
 	padding: 1rem;
 	position: relative;
-
+	transition: 0.4s ease;
+	animation: fadeIn 1s;
 	.hero-details {
 		position: absolute;
 		bottom: 90px;
